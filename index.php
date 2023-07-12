@@ -27,8 +27,8 @@
         <div class="container text-center">
             <h1>GiftEfficient</h1>
             <img src="img/gift.jpg" alt="Gift" id="gift">
-            <p>Let's face it: not getting the gift you want suck</p>
-            <p>Giving the gift other people don't want also suck</p>
+            <p>Let's face it: getting the right present is hard</p>
+            <p>So why don't make it easier and let the other party decide for themselves?</p>
             <p>See what other people actually want so you can gift efficiently</p>
             <p>Keep track of finances so you know you have the money</p>
             <div>Stock Lookup</div>
