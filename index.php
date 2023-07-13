@@ -89,6 +89,7 @@ $api_key = getenv("API_KEY_FINNHUB");
             }
 
             function createPrices(data){
+                document.querySelector("#prices").innerHTML="";
                 let smText = document.createElement("h5");
                 smText.innerHTML="Summary"
                 let hr=document.createElement("hr");
