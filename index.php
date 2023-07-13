@@ -1,5 +1,5 @@
 <?php 
-$api_key = getenv("API_KEY_FINNHHUB");
+$api_key = getenv("API_KEY_FINNHUB");
 ?>
 
 <!DOCTYPE html>
