@@ -1,3 +1,7 @@
+<?php 
+$api_key = getenv("API_KEY_FINNHHUB");
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -115,7 +119,7 @@
             }
             document.querySelector("#stock-search").onclick = function(){
                 let ticker = document.querySelector("#stock-search-form").f.value;
-                const url2 = "https://finnhub.io/api/v1/quote?symbol=" + ticker + "&token=<>"
+                const url2 = "https://finnhub.io/api/v1/quote?symbol=" + ticker + "&token=<?php echo $api_key?>"
                 $.ajax({
                     url: url2,
                     dataType: "json"   
